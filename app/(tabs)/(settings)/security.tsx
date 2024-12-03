@@ -1,9 +1,11 @@
+import { Link } from 'expo-router';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function Tab() {
+export default function SecuritySettings() {
   return (
     <View style={styles.container}>
-      <Text>Tab Home</Text>
+      <Text>Security Settings</Text>
+      <Link href="/(tabs)/(settings)">Go to settings page</Link>
     </View>
   );
 }
